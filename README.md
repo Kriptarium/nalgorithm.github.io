@@ -4,5 +4,5 @@ Bu repo, [nalgorithm.github.io](https://nalgorithm.github.io) adresinde yayınla
 
 ## İçerik
 - index.html: Ana sayfa
-- style.css: Basit stil dosyası
-- assets/: Görseller ve diğer dosyalar için klasör
+- style.css: Stil dosyası
+- assets/: Görseller ve ikonlar

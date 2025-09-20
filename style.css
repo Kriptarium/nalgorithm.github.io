@@ -1,6 +1,27 @@
-body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; }
-header { background: #003366; color: #fff; padding: 20px; text-align: center; }
-header nav a { color: #fff; margin: 0 10px; text-decoration: none; }
-section { padding: 20px; }
+body { font-family: 'Arial', sans-serif; margin: 0; line-height: 1.6; background: #fdfdfd; color: #333; }
 h2 { color: #003366; }
-footer { background: #f4f4f4; text-align: center; padding: 10px; margin-top: 20px; }
+
+header { background: #003366; color: #fff; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
+header .logo { display: flex; align-items: center; }
+header .logo img { height: 40px; margin-right: 10px; }
+header nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; }
+header nav a:hover { color: #ff9933; }
+
+.hero { background: #e6f0ff; text-align: center; padding: 60px 20px; }
+.hero h2 { font-size: 28px; margin-bottom: 10px; }
+.hero p { font-size: 18px; }
+
+section { padding: 40px 20px; max-width: 900px; margin: auto; }
+ul { list-style: disc; padding-left: 20px; }
+
+/* Bilgilendirme */
+#bilgilendirme { background: #f9f9f9; padding: 50px 20px; }
+#bilgilendirme h2 { text-align: center; margin-bottom: 30px; }
+.cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); width: 280px; text-align: center; padding: 20px; transition: transform 0.2s; }
+.card:hover { transform: translateY(-5px); }
+.card img { height: 80px; margin-bottom: 15px; }
+.card h3 { color: #003366; font-size: 18px; margin-bottom: 10px; }
+.card p { font-size: 14px; color: #555; }
+
+footer { background: #003366; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
